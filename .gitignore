@@ -1,0 +1,6 @@
+# UNWANTED FOLDERS
+.idea/
+
+# LOG FILES
+*.log
+logs/
