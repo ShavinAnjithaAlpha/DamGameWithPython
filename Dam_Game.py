@@ -59,11 +59,11 @@ class DamGame(Tk):
         self.create_DamBoard()
 
         # load the chessman images
-        self.redman = ImageTk.PhotoImage(Image.open("red_chessman.png").resize((int(self.R*2), int(self.R*2)), Image.ANTIALIAS))
-        self.blueman = ImageTk.PhotoImage(Image.open("blue_chessman.png").resize((int(self.R * 2), int(self.R*2)), Image.ANTIALIAS))
+        self.redman = ImageTk.PhotoImage(Image.open("red_chessman.png").resize((int(self.R*2), int(self.R*2))))
+        self.blueman = ImageTk.PhotoImage(Image.open("blue_chessman.png").resize((int(self.R * 2), int(self.R*2))))
         # load the image for kings of partners
-        self.blueking = ImageTk.PhotoImage(Image.open("king chessmans/blue_king.png").resize((int(self.R*2), int(self.R*2)), Image.ANTIALIAS))
-        self.redking = ImageTk.PhotoImage(Image.open("king chessmans/red_king.png").resize((int(self.R * 2), int(self.R*2)), Image.ANTIALIAS))       
+        self.blueking = ImageTk.PhotoImage(Image.open("king chessmans/blue_king.png").resize((int(self.R*2), int(self.R*2))))
+        self.redking = ImageTk.PhotoImage(Image.open("king chessmans/red_king.png").resize((int(self.R * 2), int(self.R*2))))
 
 
         # create the New Game
